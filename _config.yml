@@ -30,8 +30,6 @@ navigation:
    title: 首页
  - url: /category
    title: 文章
- - url: /examples
-   title: UI
  - url: /about
    title: 关于我们
 
