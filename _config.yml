@@ -1,20 +1,14 @@
 exclude:
-  - node_modules
-  - Fomantic-UI
   - assets/site
   - assets/semantic.less
   - assets/theme.config
   - assets/theme.less
-  - dist/stylesheets/semantic_src.css
   - README.md
   - Rakefile
   - Gemfile
   - Gemfile.lock
-  - yarn.lock
-  - package.json
-  - postcss.json
-  - postcss.config.js
   - LICENSE
+  - home
 watch_exclude:
   - dist
 encoding: UTF-8
