@@ -21,7 +21,7 @@ production_url : https://work.design
 
 navigation:
 - url: /
-  title: 首页
+  title: Work Design
 - url: /category
   title: 文章分类
 - url: /post

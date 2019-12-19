@@ -1,16 +1,23 @@
-<header class="ui inverted borderless menu">
-  <div class="ui container">
-  {% for node in site.navigation %}
-
-  {% if page.url == node.url %}
-    <a href="{{ BASE_PATH }}{{ node.url }}" class="active item">{{node.title}}</a>
-  {% else %}
-    <a href="{{ BASE_PATH }}{{ node.url }}" class="item">{{node.title}}</a>
-  {% endif %}
-
-  {% endfor %}
-    <div class="right menu">
-      <div class="item"><a href="https://github.com/work-design" target="_blank" class="ui inverted blue bottom">Github</a></div>
+<nav class="navbar is-dark">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="https://bulma.io/images/bulma-logo-white.png" alt="Work Design" width="112" height="28">
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+      {% for node in site.navigation %}
+      {% if page.url == node.url %}
+        <a href="{{ BASE_PATH }}{{ node.url }}" class="navbar-item is-active">{{node.title}}</a>
+      {% else %}
+        <a href="{{ BASE_PATH }}{{ node.url }}" class="navbar-item">{{node.title}}</a>
+      {% endif %}
+      {% endfor %}
+      </div>
+      <div class="navbar-end">
+        <a href="https://github.com/work-design" target="_blank" class="navbar-item">Github</a>
+      </div>
     </div>
   </div>
-</header>
+</nav>
