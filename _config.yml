@@ -20,8 +20,6 @@ tagline: Site Tagline
 production_url : https://work.design
 
 navigation:
-- url: /
-  title: Work Design
 - url: /category
   title: 文章分类
 - url: /post

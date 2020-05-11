@@ -6,13 +6,11 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
-    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/bulma.css">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/syntax.css">
-    <script src="/assets/javascripts/jquery.min.js"></script>
-    <script src="/assets/javascripts/semantic.js"></script>
     <script src="/assets/javascripts/turbolinks.js"></script>
   </head>
-  <body>
+  <body class="as-body">
     {% include nav.html %}
 
     {{ content }}
