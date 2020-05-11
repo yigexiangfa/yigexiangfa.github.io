@@ -13,7 +13,12 @@ watch_exclude:
   - dist
 encoding: UTF-8
 
+plugins:
+  - jekyll-paginate
+
 permalink: /:categories/:title
+paginate: 5
+paginate_path: /post/:num
 
 title: Work Design
 tagline: Site Tagline
