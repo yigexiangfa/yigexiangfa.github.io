@@ -1,6 +1,6 @@
 {% for node in site.posts %}
-	<h1 class="title">{{ node.title }}</h1>
-	<div class="">
-		{{ node.content }}
-	</div>
+  <section class="section">
+    <h1 class="title">{{ node.title }}</h1>
+    {{ node.content }}
+  </section>
 {% endfor %}
