@@ -27,10 +27,8 @@ production_url : https://work.design
 navigation:
 - url: /why
   title: 我们的优势
-- url: /category
-  title: 文章分类
-- url: /post
-  title: 博客
+- url: /team
+  title: 团队
 - url: /about
   title: 关于我们
 
