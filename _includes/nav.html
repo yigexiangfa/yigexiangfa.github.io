@@ -1,16 +1,16 @@
 <nav class="navbar is-dark as-header">
-  <div class="container">
+  <div class="container" data-controller="navbar">
     <div class="navbar-brand">
       <a href="/" class="navbar-item">
-        <img src="/assets/images/logo.png" alt="Work Design" width="112" height="28">
+        <img src="/assets/images/logo.png" alt="Work Design">
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-action="navbar#toggle">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div id="navbar" class="navbar-menu">
+    <div data-target="navbar.menu" class="navbar-menu">
       <div class="navbar-start">
       {% for node in site.navigation %}
       {% if page.url == node.url %}
