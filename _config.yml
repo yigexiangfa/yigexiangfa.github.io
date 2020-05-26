@@ -33,5 +33,7 @@ navigation:
   title: 团队
 - url: /about
   title: 关于我们
+- url: /news
+  title: 报道及资讯
 
 lessc: 'date'
